@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Lista de casos */
+  .lista-casos {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .caso {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .caso:hover {
+    transform: scale(1.05);
+  }
+  
+  .caso h3 {
+    font-size: 1.5em;
+    color: #218838;
+    margin-bottom: 10px;
+  }
+  
+  .caso p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .caso p strong {
+    font-weight: bold;
+  }
+  
+  .caso a {
+    color: #91c500;
+    font-weight: bold;
+  }
+  
+  .caso a:hover {
+    color: #91c500;
+  }
+  
